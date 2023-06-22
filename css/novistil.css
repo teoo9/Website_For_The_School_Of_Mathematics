@@ -1,0 +1,251 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.8743872549019608) 100%);
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: black;
+}
+
+footer a {
+    color: black;
+    transition: color 0.4s ease-in;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: 	#606060;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: black;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: blue;
+}
+
+.footer-bottom {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.8743872549019608) 100%);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.navbar{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.8743872549019608) 100%);
+}
+
+.navbar-brand img{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+ul.navbar-nav > li > a {
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+ul.navbar-nav > li.nav-item.dropdown > ul.dropdown-menu > li > a {
+    letter-spacing: 0.1rem;
+}
+
+section {
+    margin-top: 2rem;
+}
+
+.carousel h5 {
+    color: black;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+.list-unstyled li {
+    line-height: 3rem !important;
+    font-size: 1.5rem;
+}
+
+.list-unstyled li a {
+    color: black;
+    text-decoration: none;
+}
+
+.list-unstyled p{
+    font-size: 1.5rem;
+}
+
+.photo-gallery {
+    color: #313437;
+    background-color: #fff;
+}
+
+.photos {
+    padding-bottom: 20px;
+}
+
+.item {
+    padding-bottom: 30px;
+}
+
+section {
+    margin-top: 30px;
+}
+
+.card {
+    margin-right: 20px;
+}
+
+.info a {
+text-decoration: none;
+color: black;
+}
+
+.accordion .accordion-button {
+    background-color: rgb(240, 204, 234) !important;
+}
+
+.poruka {
+    margin-top: 95px;
+    margin-bottom: 90px;
+}
+
+.usluge-info {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.mi {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.map {
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: none;
+    color: #fff;
+    background-color: #c7659b;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover{
+    background-color: #c71279;
+    transform: translateY(4px);
+    box-shadow: 0 5px #666;
+}
+
+.accordion-item {
+    margin-bottom: 1rem;
+}
+
+.accordion-body {
+    background-color:rgba(255, 221, 248, 0.671) ;
+}
+
+.mapa {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.mapa .deo{
+    border: rgb(233, 156, 230) ;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 80px;
+    background-color: rgb(216, 216, 216);
+}
+
+.mapa li a{
+    color: rgb(56, 39, 39);
+    text-decoration: none;
+    font-style: italic;
+}
+
+.mapa li a:hover{
+    color: rgb(250, 152, 168);
+}
+
+@media screen and (max-width:600px) {
+    iframe {
+        width:fit-content;
+        height: fit-content;
+    }
+}
